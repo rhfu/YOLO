@@ -1,6 +1,6 @@
 # YOLO人物检测
 
-[![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/yolo_1.png)]
+[![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/yolo_1.gif)]
 
 - python=3.97
 - 其它依赖见 requirements.txt
