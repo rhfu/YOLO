@@ -1,6 +1,6 @@
-# YOLOv8 全局人物检测
+# YOLO人物检测
 
-[![Watch the video](https://github.com/rhfu/yolo/blob/main/video/yolo_1.png)](https://github.com/rhfu/yolo/blob/main/video/yolo_1.mp4)
+[![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/yolo_1.png)]
 
 - python=3.97
 - 其它依赖见 requirements.txt
