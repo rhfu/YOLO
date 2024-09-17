@@ -1,5 +1,6 @@
 # YOLO人物检测
 基于YOLOv8视频人物检测实例，python版本3.9.7 supervision版本0.23.0
+
 [![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/yolo_1.gif)]
 
 - python=3.9.7
