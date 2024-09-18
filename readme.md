@@ -2,8 +2,6 @@
 
 基于YOLOv8视频人物检测实例，python版本3.9.7 supervision版本0.23.0
 
-![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/yolo_1.gif)
-
 - python=3.9.7
 - supervision==0.23.0
 - yolov8s.pt
@@ -22,6 +20,12 @@
 - video 为视频原文件及识别后文件
 - model 为模型文件
 - test 测试文件
+
+## 演示
+
+![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_man.gif)
+![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_ball.gif)
+![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_car.gif)
 
 ## 附
 
