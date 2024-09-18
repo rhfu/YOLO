@@ -9,8 +9,8 @@
 
 ## 安装
 
-- git clone https://github.com/rhfu/yolo
-- cd golo/
+- git clone git@github.com:rhfu/YOLO.git
+- cd YOLO/
 - conda create --name yolo python=3.9.7 && conda activate yolo
 - pip install -r requirements.txt
 - python main.py
