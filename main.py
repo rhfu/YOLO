@@ -6,7 +6,7 @@ class CountObject():
 
     def __init__(self, input_video_path, output_video_path) -> None:
         # 加载YOLOv8模型
-        self.model = YOLO('model/yolov8s.pt')
+        self.model = YOLO('model/yolov8l.pt')
 
         # 输入视频, 输出视频
         self.input_video_path = input_video_path
@@ -26,7 +26,8 @@ class CountObject():
         # 检测
         results = self.model(frame, imgsz=1280)[0]
         detections = sv.Detections.from_ultralytics(results)
-        detections = detections[detections.class_id == 0]
+        # detections = detections[detections.class_id == 0]
+        # detections = detections[detections.class_id == 32]
 
         # box
         annotated_frame = self.box_annotator.annotate(scene=frame, detections=detections)
@@ -48,6 +49,6 @@ class CountObject():
 
 
 if __name__ == "__main__":
-    video = "1.mp4"
+    video = "ball.mp4"
     obj = CountObject(f"video/{video}", f"video/yolo_{video}")
     obj.process_video()
