@@ -23,7 +23,7 @@
 
 ## 演示
 
-- 蓝类
+- 球类
 ![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_ball.gif)
 - 行人&汽车
 ![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_car.gif)
